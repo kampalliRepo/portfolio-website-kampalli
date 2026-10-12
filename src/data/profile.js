@@ -6,7 +6,7 @@ export const profile = {
   name: "Kampalli M",
   firstName: "KAMPALLI",
   lastName: "M",
-  role: "Flutter Developer | Frontend Developer",
+  role: "Flutter Developer | FrontEnd Developer",
   tagline: "Building better apps for a better tomorrow.",
   intro:
     "Building impactful cross-platform mobile applications with clean code, modern architectures and real-world solutions.",
