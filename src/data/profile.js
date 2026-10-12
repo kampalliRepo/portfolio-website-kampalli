@@ -3,10 +3,11 @@ import kampalliporthero from "../assets/kamheroimage.png";
 import kampalliabout from "../assets/kamaboutimage.png";
 
 export const profile = {
+
   name: "Kampalli M",
   firstName: "KAMPALLI",
   lastName: "M",
-  role: "Flutter Developer | FrontEnd Developer",
+  role: "Flutter Developer | Frontend Developer",
   tagline: "Building better apps for a better tomorrow.",
   intro:
     "Building impactful cross-platform mobile applications with clean code, modern architectures and real-world solutions.",
