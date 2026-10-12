@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-900 text-slate-200 font-sans antialiased;
+    background-image: radial-gradient(
+        circle at 15% -10%,
+        rgba(139, 92, 246, 0.16),
+        transparent 45%
+      ),
+      radial-gradient(circle at 100% 10%, rgba(109, 40, 217, 0.14), transparent 40%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-violet/40 text-white;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-violet-soft ring-offset-2 ring-offset-ink-900 rounded-lg;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-500 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-violet-deep;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/10 bg-ink-800/70 backdrop-blur-sm;
+  }
+
+  .card-hover {
+    @apply transition duration-300 hover:-translate-y-1 hover:border-violet/50 hover:shadow-glow;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-md border border-violet/30 bg-violet/10 px-2.5 py-1 text-xs font-medium text-violet-soft;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-violet/30 bg-violet/10 px-3 py-1 text-sm font-medium text-violet-soft;
+  }
+
+  .link-muted {
+    @apply text-muted transition-colors hover:text-white;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-violet-soft via-violet to-fuchsia-400 bg-clip-text text-transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
