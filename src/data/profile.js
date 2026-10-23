@@ -3,7 +3,6 @@ import kampalliporthero from "../assets/kamheroimage.png";
 import kampalliabout from "../assets/kamaboutimage.png";
 
 export const profile = {
-
   name: "Kampalli M",
   firstName: "KAMPALLI",
   lastName: "M",
