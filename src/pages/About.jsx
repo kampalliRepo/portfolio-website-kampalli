@@ -64,13 +64,13 @@ export default function About() {
                   <dt className="text-xs uppercase tracking-wide text-muted">
                     Role
                   </dt>
-                  <dd className="text-white">Flutter Developer</dd>
+                  <dd className="text-white">Flutter & Frontend Developer</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wide text-muted">
                     Experience
                   </dt>
-                  <dd className="text-white">2.5+ years</dd>
+                  <dd className="text-white">2.3+ years</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wide text-muted">

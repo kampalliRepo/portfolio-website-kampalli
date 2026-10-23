@@ -11,7 +11,7 @@ export const profile = {
   intro:
     "Building impactful cross-platform mobile applications with clean code, modern architectures and real-world solutions.",
   summary:
-    "Results-driven Software Developer specializing in Flutter development with 2.5+ years of experience building and deploying cross-platform mobile applications for Android and iOS. Delivered 3+ production-ready apps across education, safety, travel, e-commerce and healthcare. Skilled in scalable architectures, clean code practices, Agile methodologies and integrating real-time communication features.",
+    "Results-driven Software Developer specializing in Flutter development with 2.3+ years of experience building and deploying cross-platform mobile applications for Android and iOS. Delivered 3+ production-ready apps across education, safety, travel, e-commerce and healthcare. Skilled in scalable architectures, clean code practices, Agile methodologies and integrating real-time communication features.",
   philosophy:
     "I believe in building products that make a real difference in people's lives.",
   location: "Bangalore, India",
@@ -31,7 +31,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "2.5+", label: "Years Experience", icon: "briefcase" },
+  { value: "2.3+", label: "Years Experience", icon: "briefcase" },
   { value: "3+", label: "Production Apps", icon: "rocket" },
   { value: "20%+", label: "Crash Rate Reduced", icon: "shield" },
   { value: "30%", label: "Faster Delivery", icon: "zap" },
