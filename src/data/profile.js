@@ -18,8 +18,8 @@ export const profile = {
   email: "mkampalli1999@gmail.com",
   phone: "+91 74837 20334",
   phoneHref: "+917483720334",
-  resumeUrl: "/Kampalli-M-Resume.pdf",
-  resumeFileName: "Kampalli-M-Resume.pdf",
+  resumeUrl: "/Kampalli_M_Resume.pdf",
+  resumeFileName: "Kampalli_M_Resume.pdf",
   heroImage: kampalliporthero,
   aboutImage: kampalliabout,
   socials: {
